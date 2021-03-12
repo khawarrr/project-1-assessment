@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.container {
+    
+    /* display: flex;  defaults to row layout */
+    /* justify-content: center;  centers items horizontally in row layout */
+    /* align-items: center;  centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    
+}
+
+
+#result {
+    margin-bottom: 5px;
+}
+
+
+#plus:hover{
+    background-color: gray;
+}
+
+
+#minus:hover {
+    background-color: gray;
+}
