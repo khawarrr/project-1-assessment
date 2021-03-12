@@ -27,14 +27,18 @@ function init() {
 
 
 function render() {
+
+    
     if (totalEl >= 0) {
         resultEl.textContent = totalEl;
-    } else {
-        resultEl.textContent = totalEl;
+    // } else {
+    //     resultEl.textContent = totalEl;
 
-        resultEl.style.color = "red"
+    //     resultEl.style.color = "red"
+    // 
     }
-    
+    resultEl.style.color = totalEl < 0 ? 'red' : '';
+    resultEl.textContent = totalEl;
 }
 
 
